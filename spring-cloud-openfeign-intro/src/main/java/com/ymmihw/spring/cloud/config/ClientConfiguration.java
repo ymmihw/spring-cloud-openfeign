@@ -22,6 +22,11 @@ public class ClientConfiguration {
         return new ErrorDecoder.Default();
     }
 
+    //    @Bean
+    public ErrorDecoder customErrorDecoder() {
+        return new CustomErrorDecoder();
+    }
+
     @Bean
     public OkHttpClient client() {
         return new OkHttpClient();
