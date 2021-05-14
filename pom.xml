@@ -5,6 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <modules>
         <module>spring-cloud-openfeign-intro</module>
+        <module>spring-cloud-openfeign-file-upload</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
